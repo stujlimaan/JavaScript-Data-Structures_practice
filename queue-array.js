@@ -33,9 +33,9 @@ class Queue {
   
   const queue = new Queue();
   console.log(queue.isEmpty());
-  queue.enqueue(10);
-  queue.enqueue(20);
-  queue.enqueue(30);
+  queue.enqueue(60);
+  queue.enqueue(200);
+  queue.enqueue(300);
   console.log(queue.size());
   queue.print();
   console.log(queue.dequeue());
